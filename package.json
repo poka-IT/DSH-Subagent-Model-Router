@@ -1,7 +1,7 @@
 {
   "name": "dsh-subagent-model-router",
   "version": "0.9.0",
-  "description": "Model-selectable subagents and guided model routing setup for DeepSeek Harness 0.1.7",
+  "description": "Model-selectable subagents and guided model routing setup for DeepSeek Harness 0.1.7 and 0.2.0",
   "type": "module",
   "main": "./lib/index.js",
   "exports": {
@@ -48,8 +48,8 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "@deepseek-ai/dsh-scope": "^0.1.7-rc.2",
-    "@deepseek-ai/dsh-tools": "^0.1.7-rc.2",
+    "@deepseek-ai/dsh-scope": "^0.1.7-rc.2 || ^0.2.0-rc.1",
+    "@deepseek-ai/dsh-tools": "^0.1.7-rc.2 || ^0.2.0-rc.1",
     "@deepseek-ai/schemastery": "^3.18.4",
     "dsh-better-sidebar": ">=0.16.0"
   },
@@ -61,8 +61,8 @@
   },
   "devDependencies": {
     "@deepseek-ai/cordis": "4.0.4",
-    "@deepseek-ai/dsh-scope": "0.1.7-rc.2",
-    "@deepseek-ai/dsh-tools": "0.1.7-rc.2",
+    "@deepseek-ai/dsh-scope": "0.2.0-rc.1",
+    "@deepseek-ai/dsh-tools": "0.2.0-rc.1",
     "@deepseek-ai/schemastery": "3.18.4"
   }
 }
